@@ -9,7 +9,7 @@
         {% block body %}
         	{% if not is_granted('IS_AUTHENTICATED_REMEMBERED') %}
         		<div>
-        			<a href="{{ path('app_register' }}">Register</a>
+        			<a href="{{ path('app_register') }}">Register</a>
         		</div>
         	{% endif %}
 
